@@ -4,8 +4,8 @@ const app = express()
 
 app.use(express.static(path.join(__dirname, "/public")));
 
-app.get('/mostrar_sitio', (req, res) => {
-    res.sendFile((__dirname + '/views/home.html'));
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname + '/views/home.html'));
 });
 
 app.listen(3002, function (){
