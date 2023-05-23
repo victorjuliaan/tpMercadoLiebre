@@ -1,8 +1,63 @@
 body {
     background-color: gold;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-bottom: 20em;
+    min-height: 100vh;
+    }
+    .loguito {
+        width: 110px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    main {
+        margin:auto;
+        line-height: 20px;
+    }
+
+.primera-seccion {
+
+        padding: 2%;
+        line-height: 20px;
+        margin: auto
+
+}
+
+.segunda-seccion {
+    padding: 2%;
+    column-count: 2;
+    column-gap: 50px;
+      
+
+
+}
+
+.imagenmacbook {
+    width: 150px;
+    height: 100px;
+
+}
+.imagens10 {
+    width: 100px;
+    height: 100px;
+}
 
 .pie-de-pagina {
     width: 100%;
-    background-color:yellow
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+        
+}
+
+.pie-de-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px, 0px
+
 }
