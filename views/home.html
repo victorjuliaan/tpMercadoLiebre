@@ -6,17 +6,21 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Bienvenidos a Mercado Liebre</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/42c5fb74e1.js" crossorigin="anonymous"></script>
    
 </head>
 <body>
     <header>
-        <img class="loguito" src="/img/mercadoLogo.png" alt="mercadoLogo">
+        <img class="loguito" src="/img/logo-mercado-liebre.svg" alt="mercadoLogo">
         <br>
-        <input type="text" placeholder="Buscar productos, marcas">
+        <input class="buscador" type="text" placeholder="Buscar productos, marcas">
+        <br>
+        <i class="fa-solid fa-magnifying-glass fa-xl lupita"></i>
     </header>
-    <nav>
-        <p>Comprá en cuotas y sin tarjeta de crédito</p>
+    <nav class="navegador">
+        <i class="fa-solid fa-hand-holding-dollar fa-xl " ></i>
+        <span class="manito">Comprá en cuotas y sin tarjeta de crédito</span>
     </nav>
     <main>
         <div class="primera-seccion">
@@ -31,63 +35,66 @@
             </p>
             <p>
             Creá tu cuenta
+            <i class="fa-regular fa-id-card fa-xl"></i>
             <br>
             Ingresá
+            <i class="fa-solid fa-right-to-bracket fa-xl"></i>
             <br>
             Mis Compras
+            <i class="fa-solid fa-basket-shopping fa-xl"></i>
             </p>
         </div>
         <div class="segunda-seccion">
-            <li> <b> Basado en tu última visita </b></li>
-                <div>
-                    <img class="imagenmacbook" src="/img/macbook.jpg" alt="imagen macbook">
-                    <br>
-                    <p>
-                        $230.000
-                        <br>
-                        20% Off
-                        <br>
-                        Macbook Pro 2019
-                    </p>
-                </div>
-                <div>
-                    <img class="imagens10" src="/img/s10.jpg" alt="imagen samsung galaxy">
-                    <br>
-                    <p>
-                        $70.500
-                        <br>
-                        10% Off
-                        <br>
-                        Samsung Galaxy S10
-
-                    </p>
-                </div>
-                
-            <li> <b>Sección de Ofertas</b></li>
             <div>
-                <img  class="imagenmacbook" src="/img/macbook.jpg" alt="imagen macbook">
-                <br>
-                <p>
-                    $230.000
-                    <br>
-                    20% Off
-                    <br>
-                    Macbook Pro 2019
-                </p>
+                <h1 class="titular">Basado en tu última visita</h1>
+                    <div>
+                        <img class="imagenmacbook" src="/img/macbook.jpg" alt="imagen macbook">
+                        <br>
+                        <p>
+                            <span class="precios">$230.000</span>
+                            <br>
+                            <span class="descuentos">20% Off</span>
+                            <br>
+                            <span class="descripcion">Mackbook Pro 2019</span>
+                        </p>
+                    </div>
+                    <div>
+                        <img class="imagens10" src="/img/s10.jpg" alt="imagen samsung galaxy">
+                        <br>
+                        <p>
+                            <span class="precios">$70.500</span>
+                            <br>
+                            <span class="descuentos">10% Off</span>
+                            <br>
+                            <span class="descripcion">Samsung Galaxy S10</span>
+                        </p>
+                    </div>
             </div>
-            <div>
-                <img class="imagens10" src="/img/s10.jpg" alt="imagen samsung galaxy">
-                <br>
-                <p>
-                    $70.500
-                    <br>
-                    10% Off
-                    <br>
-                    Samsung Galaxy S10
-
-                </p>
-            </div>
-                
+            <div>    
+                <h1 class="titular">Sección de Ofertas</h1>
+                    <div>
+                        <img  class="imagenmacbook" src="/img/macbook.jpg" alt="imagen macbook">
+                        <br>
+                        <p>
+                            <span class="precios">$230.000</span>
+                            <br>
+                            <span class="descuentos">20% Off</span>
+                            <br>
+                            <span class="descripcion">Mackbook Pro 2019</span>
+                        </p>
+                    </div>
+                    <div>
+                        <img class="imagens10" src="/img/s10.jpg" alt="imagen samsung galaxy">
+                        <br>
+                        <p>
+                            <span class="precios">$70.500</span>
+                            <br>
+                            <span class="descuentos">10% Off</span>
+                            <br>
+                            <span class="descripcion">Samsung Galaxy S10</span>
+                        </p>
+                </div>
+            </div>    
 
 
 
@@ -96,24 +103,29 @@
     </main>
     <footer class="pie-de-pagina">
         <div class="grupo1">
-            <div>
-             <li><b>Pagá con tarjeta o efectivo</b></li>
-                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-            </div>
-
-            <div>
-                 <li> <b>Envío gratis desde $2500</b></li>
-                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-            </div>
-        
-            <div>
-                <li> <b>Seguridad, de principio a fin</b></li>
-                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
-            </div>
-
-            <div>
-                <li> <b> ● Copyright © 1999-2020 MercadoLiebre S.R.L. </b></li>
-            </div>
+            
+                <i class="fa-solid fa-credit-card fa-xl iconofooter" ></i>
+                 <h1 class="footertit">Pagá con tarjeta o efectivo</h1>
+                 <span class="footerspan">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</span>
+            
+                <br>
+            
+                 <i class="fa-solid fa-gift fa-xl iconofooter"></i>
+                 <h1 class="footertit">Envío gratis desde $2500</h1>
+                 <span class="footerspan">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</span>
+            
+                <br>
+            
+                <i class="fa-solid fa-user-shield fa-xl iconofooter"></i>
+                <h1 class="footertit">Seguridad, de principio a fin</h1>
+                <span class="footerspan">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</span>
+            
+                <br>
+                <br>
+                <br>
+            
+                <span class="copyright">● Copyright © 1999-2020 MercadoLiebre S.R.L.</span>
+            
         </div>
     </footer>
 

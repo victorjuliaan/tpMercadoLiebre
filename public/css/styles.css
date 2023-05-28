@@ -1,42 +1,87 @@
 body {
-    background-color: gold;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAC926;
+    color: black;
+    font-family: roboto;
+    font-size: 12px;
     position: relative;
     padding-bottom: 20em;
     min-height: 100vh;
     }
-    .loguito {
-        width: 110px;
-        height: 100px;
-        margin-bottom: 30px;
-    }
 
-    main {
+.buscador {
+
+        margin-left: 30px;
+        width: 300px;
+        font-family: roboto;
+    }
+.loguito {
+        width: 150px;
+        height: 130px;
+        margin-left: 30px;
+    }
+.lupita {
+
+    margin-left: 30px;
+    margin-top: 5px;
+    padding: 10px 3px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    background-color: white;
+}
+main {
         margin:auto;
         line-height: 20px;
     }
 
+.navegador {
+
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.manito {
+
+    margin-left: 3px;
+    
+}
+
 .primera-seccion {
 
-        padding: 2%;
-        line-height: 20px;
-        margin: auto
-
+        margin-left: 30px;
+        line-height: 20px; 
+        padding-bottom: 50px; 
 }
 
 .segunda-seccion {
-    padding: 2%;
+    margin-left: 30px;
     column-count: 2;
     column-gap: 50px;
-      
+    padding-bottom: 100px;
+}
 
+.titular {
+    font-size: 24px;
+}
 
+.precio {
+
+    font-size: 18px;
+}
+
+.descuentos {
+
+    font-size: 16px;
+}
+
+.descripcion {
+
+    font-size: 16px;
 }
 
 .imagenmacbook {
     width: 150px;
     height: 100px;
-
 }
 .imagens10 {
     width: 100px;
@@ -46,18 +91,38 @@ body {
 .pie-de-pagina {
     width: 100%;
     position: absolute;
-    bottom: 0;
-    width: 100%;
-        
+    
+    background-color: aliceblue; 
+    margin-right: 300px;
+
 }
 
-.pie-de-pagina .grupo1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    padding: 45px, 0px
+.grupo1 {
 
+    margin-right: 1000px;
+    margin-left: 30px;
+
+} 
+.footertit {
+
+    font-size: 15px;
+    color: black ;
+    margin-left: 30px;
+}
+.footerspan {
+    
+    text-indent: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.iconofooter {
+
+    margin-left: 100px;
+    padding-top: 30px;
+}  
+
+.copyright {
+
+    padding-top: 150px;
 }
