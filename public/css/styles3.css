@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 
 .main-header1 {
     background-color:#EAC926;
-    padding: 20px
+    padding: 20px;
 }
 
 .logo {
