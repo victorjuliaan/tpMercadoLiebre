@@ -131,7 +131,6 @@ header {
 .hamburguer {
     visibility: hidden;
 }
-
 .navegador-inferior a:hover{
     
     color:#1259c3
@@ -143,86 +142,82 @@ header {
 
 
 /*-------------------------------------------------------------------------*/
-
 main {
-    width: 100vw;
     background-color: #ebebeb;
-    position:relative;
+}
+.register-form{
+
+    margin-left: 30vw;
+    margin-right: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form input {
+
+    margin-top: 4vh;
+    height: 4vh;
+}
+
+.register-form h4 {
+    margin-top: 4vh;
+}
+
+.user-form, .data-form, .profile-form, .interest-form, .photo-form, .pass-form, .form-button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+.user-form input {
+    border-radius: 10px;
+    border: solid 1px white;
+}
+
+.data-form input {
+    border-radius: 10px;
+    border: solid 1px white;
+}
+
+.profile-form {
     
+    margin-top: 0vh;    
 }
-.main-general{
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-main h2{
-    font-size: 24px;
-    margin-bottom: 2vh;
-
-}
-.carousel img {
+.profile-form input {
     
-    width: 100%;
-    padding-bottom: 5vh;
-}
-
-main ul {
-    border: solid 1px #ebebeb;
-    background-color: white;
-    width: 15vw;
-    list-style: none;
-    
-}
-
-main ul img {
-
-    width: 15vw;
+    margin-top: 0vh;
     position: relative;
-    right: 5%;
-    
-}
-.primera-seccion{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 5vh;
+    bottom: -1vh;
+    left: 1vh;  
 }
 
-
-.segunda-seccion{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 5vh;
+.interest-form input {
+    margin-top: 0vh;
+    position: relative;
+    bottom: 3vh;
+    right: 5vw;
+}
+.interest-form h4 {
+    margin-bottom: 5vh;
 }
 
-.precioLi {
-    font-size: 20px;
+.pass-form input {
+    border-radius: 10px;
+    border: solid 1px white;
 }
 
-.descuentoLi {
-    color: #39b54a;
-    font-size: 18px;
+.form-button input {
+    background-color: #1259c3;
+    color: white;
+    font-family: roboto;
 }
-.productoLi{
-    color:#666666;
-    font-weight: 18px;
-    
+.form-button a input {
+    background-color: #1259c3;
+    color: white;
+    font-family: roboto;
+    width: 29vw;
 }
 
-.fa-truck{
-    color: #39b54a;
-    border: solid 1px #39b54a;
-    padding: 5px;
-    border-radius: 50%;
-    transition: transform, 1s;
-    
-}
-main ul:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    scale: 103%;
-    
-}
-.fa-truck:hover{
-    transform: translateX(15px);
-}
 /*-----------------------------------------------------------------------------------------*/
 
 .iconofooter {
@@ -419,72 +414,13 @@ footer h6 {
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-.carousel img {
-    object-fit: cover;
-    position: relative;
-    margin-left: 0px;
-    width: 100vw;
-    padding-bottom: 5vh;
-}
 
-.primera-seccion{
-    display: block;
-    justify-content: left;
-    padding-bottom: 5vh;
-}
-.segunda-seccion{
-    display: block;
-    justify-content: left;
-    padding-bottom: 5vh;
-}
-main h2{
-    font-size: 3vw;
-
-}
-main ul {
-    border: solid 1px #ebebeb;
-    background-color: white;
-    width: 50vw;
-    list-style: none;
-    margin-bottom: 3vh;
-    
-}
-main ul img {
-
-    width: 30vw;
-    position: relative;
-    right: 0%;
-    left: 5%;
-    
-}
-
-
-.precioLi {
-    font-size: 15px;
-}
-
-.descuentoLi {
-    color: #39b54a;
-    font-size: 12px;
-}
-.productoLi{
-    color:#666666;
-    font-size: 12px;
-}
-
-.fa-truck{
-    color: #39b54a;
-    border: solid 1px #39b54a;
-    padding: 5px;
-    border-radius: 50%;
-    width: 4vw;
-}
 
 /*-----------------------------------------------------------------------------------------------*/
 
 footer {
 
-    background-color: white;
+    background-color: #ebebeb;
     height: 100vh;
 }
 

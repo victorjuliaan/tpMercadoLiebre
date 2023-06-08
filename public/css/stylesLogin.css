@@ -131,7 +131,6 @@ header {
 .hamburguer {
     visibility: hidden;
 }
-
 .navegador-inferior a:hover{
     
     color:#1259c3
@@ -141,88 +140,52 @@ header {
     color: #1259c3;
 }
 
-
 /*-------------------------------------------------------------------------*/
-
 main {
     width: 100vw;
-    background-color: #ebebeb;
-    position:relative;
+    background-color:#ebebeb ;
+    
+
+}
+.formulario-ingreso{
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 10vw;
     
 }
-.main-general{
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-main h2{
+
+.label-ingreso{
+    color: #03264C;
+    background-color: #EAC926 ;
+    border-radius: 10px;
+    width: 50vw;
+    height: 7vh;
+    padding-top: 1vh;
     font-size: 24px;
-    margin-bottom: 2vh;
-
-}
-.carousel img {
-    
-    width: 100%;
-    padding-bottom: 5vh;
+    text-align: center;
+    font-weight: bold;
 }
 
-main ul {
-    border: solid 1px #ebebeb;
-    background-color: white;
-    width: 15vw;
-    list-style: none;
+.formulario-ingreso input{
+    margin-top: 5vh;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: solid 1px white;
     
 }
 
-main ul img {
-
-    width: 15vw;
-    position: relative;
-    right: 5%;
-    
-}
-.primera-seccion{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 5vh;
+.submit-button{
+    background-color: #1259c3;
+    color: white;
+    font-family: roboto;
 }
 
 
-.segunda-seccion{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 5vh;
-}
-
-.precioLi {
-    font-size: 20px;
-}
-
-.descuentoLi {
-    color: #39b54a;
-    font-size: 18px;
-}
-.productoLi{
-    color:#666666;
-    font-weight: 18px;
-    
-}
-
-.fa-truck{
-    color: #39b54a;
-    border: solid 1px #39b54a;
-    padding: 5px;
-    border-radius: 50%;
-    transition: transform, 1s;
-    
-}
-main ul:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    scale: 103%;
-    
-}
-.fa-truck:hover{
-    transform: translateX(15px);
-}
 /*-----------------------------------------------------------------------------------------*/
 
 .iconofooter {
@@ -419,66 +382,6 @@ footer h6 {
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-.carousel img {
-    object-fit: cover;
-    position: relative;
-    margin-left: 0px;
-    width: 100vw;
-    padding-bottom: 5vh;
-}
-
-.primera-seccion{
-    display: block;
-    justify-content: left;
-    padding-bottom: 5vh;
-}
-.segunda-seccion{
-    display: block;
-    justify-content: left;
-    padding-bottom: 5vh;
-}
-main h2{
-    font-size: 3vw;
-
-}
-main ul {
-    border: solid 1px #ebebeb;
-    background-color: white;
-    width: 50vw;
-    list-style: none;
-    margin-bottom: 3vh;
-    
-}
-main ul img {
-
-    width: 30vw;
-    position: relative;
-    right: 0%;
-    left: 5%;
-    
-}
-
-
-.precioLi {
-    font-size: 15px;
-}
-
-.descuentoLi {
-    color: #39b54a;
-    font-size: 12px;
-}
-.productoLi{
-    color:#666666;
-    font-size: 12px;
-}
-
-.fa-truck{
-    color: #39b54a;
-    border: solid 1px #39b54a;
-    padding: 5px;
-    border-radius: 50%;
-    width: 4vw;
-}
 
 /*-----------------------------------------------------------------------------------------------*/
 
@@ -486,6 +389,7 @@ footer {
 
     background-color: white;
     height: 100vh;
+    min-height: auto;
 }
 
 .iconofooter {
